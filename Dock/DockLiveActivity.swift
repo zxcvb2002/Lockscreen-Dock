@@ -14,6 +14,7 @@ struct DockLiveActivity: Widget {
         ActivityConfiguration(for: DockAttributes.self) { context in
             // Lock screen/banner UI goes here
             DockView(addedShortcuts: context.attributes.addedLinks)
+                .activitySystemActionForegroundColor(Color.clear)
                 .activityBackgroundTint(Color.clear)
 
         } dynamicIsland: { context in
