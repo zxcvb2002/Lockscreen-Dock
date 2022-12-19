@@ -5,9 +5,11 @@
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>stocks</string>
+		<string>youtube</string>
 		<string>shortcuts</string>
 		<string>photos-redirect</string>
 		<string>maps</string>
+		<string>instagram</string>
 	</array>
 </dict>
 </plist>

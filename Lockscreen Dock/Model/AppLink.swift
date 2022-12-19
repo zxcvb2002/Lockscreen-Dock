@@ -26,9 +26,12 @@ struct AppLink: Identifiable, Equatable, Codable, Hashable {
 
 // MARK: Sample Links
 var appLinks: [AppLink] = [
+    .init(name: "Google Maps", deepLink: "comgooglemaps://"),
+    .init(name: "Instagram", deepLink: "instagram://"),
     .init(name: "Maps", deepLink: "maps://"),
     .init(name: "Photos", deepLink: "photos-redirect://"),
     .init(name: "Shortcuts", deepLink: "shortcuts://"),
     .init(name: "Stocks", deepLink: "stocks://"),
+    .init(name: "Youtube", deepLink: "youtube:?//"),
 ]
-// Deep Link String - You can easily obtain an app's deep link string by searching Google for its url schemes. (Instagram's deep link, for example, will be "instagram://")
+// Deep Link String - You can easily obtain an app's deep link string by searching Google for its url schemes. (Google's deep link, for example, will be "https://www.google.com"))

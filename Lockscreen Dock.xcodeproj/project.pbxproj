@@ -12,6 +12,7 @@
 		8820C0F2294C91EE00DD4475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8820C0F1294C91EE00DD4475 /* Assets.xcassets */; };
 		8820C0F5294C91EE00DD4475 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8820C0F4294C91EE00DD4475 /* Preview Assets.xcassets */; };
 		8820C101294C958500DD4475 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8820C100294C958500DD4475 /* Home.swift */; };
+		885DBEC5295028CD0063EC48 /* DockAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EBF26D294CA40400964CC9 /* DockAttributes.swift */; };
 		88EBF259294CA37900964CC9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EBF258294CA37900964CC9 /* WidgetKit.framework */; };
 		88EBF25B294CA37900964CC9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EBF25A294CA37900964CC9 /* SwiftUI.framework */; };
 		88EBF25E294CA37900964CC9 /* DockBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EBF25D294CA37900964CC9 /* DockBundle.swift */; };
@@ -19,7 +20,6 @@
 		88EBF262294CA37900964CC9 /* Dock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EBF261294CA37900964CC9 /* Dock.swift */; };
 		88EBF264294CA37A00964CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EBF263294CA37A00964CC9 /* Assets.xcassets */; };
 		88EBF268294CA37A00964CC9 /* DockExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 88EBF256294CA37900964CC9 /* DockExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		88EBF26F294CA47E00964CC9 /* DockAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EBF26D294CA40400964CC9 /* DockAttributes.swift */; };
 		88FACA80294CA9B2007F156B /* DockAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EBF26D294CA40400964CC9 /* DockAttributes.swift */; };
 		88FACA81294CA9BB007F156B /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8820C0FD294C927200DD4475 /* AppLink.swift */; };
 		88FACA82294CA9BB007F156B /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8820C0FD294C927200DD4475 /* AppLink.swift */; };
@@ -283,9 +283,9 @@
 			files = (
 				88FACA82294CA9BB007F156B /* AppLink.swift in Sources */,
 				88EBF25E294CA37900964CC9 /* DockBundle.swift in Sources */,
+				885DBEC5295028CD0063EC48 /* DockAttributes.swift in Sources */,
 				88EBF262294CA37900964CC9 /* Dock.swift in Sources */,
 				88EBF260294CA37900964CC9 /* DockLiveActivity.swift in Sources */,
-				88EBF26F294CA47E00964CC9 /* DockAttributes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
