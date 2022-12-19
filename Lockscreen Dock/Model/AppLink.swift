@@ -34,4 +34,4 @@ var appLinks: [AppLink] = [
     .init(name: "Stocks", deepLink: "stocks://"),
     .init(name: "Youtube", deepLink: "youtube:?//"),
 ]
-// Deep Link String - You can easily obtain an app's deep link string by searching Google for its url schemes. (Google's deep link, for example, will be "https://www.google.com"))
+// Deep Link String - You can easily obtain an app's deep link string by searching Google for its url schemes. (Google's deep link, for example, will be "https://www.google.com")
